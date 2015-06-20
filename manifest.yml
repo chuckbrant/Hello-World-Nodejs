@@ -1,7 +1,10 @@
 applications:
-- services:
-  - user_modeling_cmm
-  name: umcmm
-  command: node hello.js
-  path: .
+- name: cbrant999
   memory: 256M
+  instances: 1
+  host: cbrant999
+  domain: mybluemix.net
+  path: .
+  command: node hello.js
+  env:
+    NODE_ENV: production
