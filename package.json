@@ -1,0 +1,11 @@
+{
+"name": "cbrant999",
+"version": "0.0.2",
+"description": "A sample nodejs app for BlueMix",
+"dependencies": {
+},
+"engines": {
+"node": "0.10.26"
+},
+"repository": {}
+}
