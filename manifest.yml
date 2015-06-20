@@ -1,0 +1,7 @@
+applications:
+- services:
+  - user_modeling_cmm
+  name: umcmm
+  command: node hello.js
+  path: .
+  memory: 256M
